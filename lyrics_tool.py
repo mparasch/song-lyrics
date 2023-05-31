@@ -96,7 +96,7 @@ def get_songList(artist):
         
         headers = {
             'x-rapidapi-host': "deezerdevs-deezer.p.rapidapi.com",
-            'x-rapidapi-key': "0f5b92c46emsha4aa56a91371d79p19cf2cjsn7ff9c3078d0f"
+            'x-rapidapi-key': "<INSERT deezer API KEY>"
             }
     
         response = requests.request("GET", url, headers=headers, params=querystring)
