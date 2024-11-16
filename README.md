@@ -31,7 +31,7 @@ Follow these steps to set up and run the application:
   ```
 2. **Install Dependencies**
   ```bash
-  pip install requests
+  pip install -r requirements.txt
   ```
 3. Configure the API key:
 * Sign up at RapidAPI to obtain an API key for the Deezer API.
